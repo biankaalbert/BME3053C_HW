@@ -1,6 +1,0 @@
-import math
-import random
-
-ppg_signal = [1000 + 100 * math.sin(0.1 * x) + random.randint(-20, 20) for x in range(100)]
-
-print(ppg_signal)
